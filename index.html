@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>😁GS TK😁</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/images/gstklogo.png">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="/"><img src="images/gstklogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/">Αρχική</a></li>
+                <li><a href="/channels">Κανάλια</a></li>
+                <li><a href="/games">Παιχνίδια</a></li>
+                <li><a href="/tools">Εργαλεία</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Καλωσήρθες!</h1>
+        <p id=""></p>
+        <a href="/channels" class="hero-btn">Κανάλια</a>
+        <a href="/games" class="hero-btn">Παιχνίδια</a>
+    </div>
+</section>
+
+<section class="course">
+    <h1>Τι σας προσφέρει ο ιστότοπoς</h1>
+    <p>Είναι σχεδιασμένος για πολλούς σκοπούς, άλλα να μερικά βασικά χαρακτηριστικά.</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Παρακολούθηση τηλεοπτικών καναλιών</h3>
+        <p>Μπορείς να παρακολουθήσεις διάφορα κανάλια όπως ακριβώς κάνεις στο σπίτι σου, όπου κι αν βρίσκεσε.</p>
+    </div>
+    <div class="course-col">
+        <h3>Παιχνίδια</h3>
+        <p>Μπορείς να παίξεις διάφορα παιχνίδια εντελώς δωρεάν εδώ, όπως το Μinecraft.</p>
+    </div>
+    <div class="course-col">
+        <h3>Εργαλεία</h3>
+        <p>Ο ιστότοπός προσφέρει δωρεάν και χρήσιμα εργαλεία για να κάνουν την καθημερινότητά σου πιο εύκολη.</p></div>
+</div>
+
+
+<!--<section class="cta">
+    <h1>Θέλετε να προσθέσω δικά σας πράγματα στον ιστότοπό μου;<br>Πολύ ευχαρίστως!</h1>
+    <a href="" class="hero-btn">Επικοινώνησε μαζί μου</a>
+</section>-->
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    var firstVisit = localStorage.getItem("firstVisit");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+        navLinks.style.display = "block";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        navLinks.style.display = "none";
+    }
+
+    if (!firstVisit) {
+        // It's the user's first visit
+        localStorage.setItem("firstVisit", "true");
+        document.getElementById("minecraft-text").textContent = "Εδώ μπορεις να κάνεις και να βρείς διάφορα πράγματα, όπως να παίξεις παιχνίδια, να δείς διάφορους τηλεοπτικούς σταθμούς δωρεάν κλπ.";
+    } else {
+        // It's not the user's first visit
+        var minecraftText = generateRandomMinecraftText();
+        document.getElementById("minecraft-text").textContent = minecraftText;
+    }
+
+    function generateRandomMinecraftText() {
+        var textArray = [
+            "Πάμε λίγο!",
+            "Instagram: @",
+            "Καλή διασκέδαση!",
+            "Τον επόμενο μήνα θα έχεις καλή τύχη!"
+        ];
+
+        // Randomly choose a phrase from the array
+        var randomIndex = Math.floor(Math.random() * textArray.length);
+        return textArray[randomIndex];
+    }
+</script>
+
+<section class="footer">
+<div class="icons">
+<a href="https://www.instagram.com/george_solomides/" target="_blank" class="fa fa-instagram" style="color: black; text-decoration: none" aria-hidden="true"></a>
+</a>
+<p>©Σολωμίδης Γιώργος 2025</p>
+</div>
+</section>
+
+
+</body>
+</html>
