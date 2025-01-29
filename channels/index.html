@@ -1,74 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Κανάλια | 😁GS TK😁</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="../images/gstklogo.png">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="../images/gstklogo.png" />
+  </head>
+  <body>
     <section class="header">
       <nav>
-        <a href="../"><img src="../images/gstklogo.png"></a>
+        <a href="../"><img src="../images/gstklogo.png" /></a>
         <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="../">Αρχική</a></li>
-                <li><a href="../channels">Κανάλια</a></li>
-                <li><a href="../games">Παιχνίδια</a></li>
-                <li><a href="../tools">Εργαλεία</a></li>
-            </ul>
+          <i class="fa fa-times" oncli ck="hideMenu()"></i>
+          <ul>
+            <li><a href="../">Αρχική</a></li>
+            <li><a href="../channels">Κανάλια</a></li>
+            <li><a href="../games">Παιχνίδια</a></li>
+            <li><a href="../tools">Εργαλεία</a></li>
+          </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
-    
-    <div class="channel-button-container">
-        <div class="channel-button">
-            <a href="ert-news.html">
-              <img src="https://www.ertnews.gr/wp-content/uploads/2023/01/ERT_NEWS_logo.svg" alt="ΕΡΤ News">
-            </a>
-        </div>
+      </nav>
 
+      <div class="channel-button-container">
         <div class="channel-button">
-            <a href="skai.html">
-              <img src="https://media.skaitv.gr/media/logos/logonav.svg" alt="ΣΚΑΪ">
-            </a>
-        </div>
-
-        <div class="channel-button">
-            <a href="star.html">
-              <img src="https://www.star.gr/tv/Content/Media/logo.svg" alt="Star">
-            </a>
-        </div>
-
-        <div class="channel-button">
-          <a href="ant1.html">
-            <img src="https://www.antenna.gr/images/logo.svg" alt="ANT1">
+          <a href="ert-news">
+            <img
+              src="https://www.ertnews.gr/wp-content/uploads/2023/01/ERT_NEWS_logo.svg"
+              alt="ΕΡΤ News"
+            />
           </a>
         </div>
 
         <div class="channel-button">
-          <a href="open-beyond.html">
-            <img src="https://s.tvopen.gr/images/OpenLogo.svg" alt="Open Beyond">
+          <a href="skai">
+            <img
+              src="https://media.skaitv.gr/media/logos/logonav.svg"
+              alt="ΣΚΑΪ"
+            />
           </a>
         </div>
-    </div>
 
+        <div class="channel-button">
+          <a href="star">
+            <img
+              src="https://www.star.gr/tv/Content/Media/logo.svg"
+              alt="Star"
+            />
+          </a>
+        </div>
+
+        <div class="channel-button">
+          <a href="ant1">
+            <img src="https://www.antenna.gr/images/logo.svg" alt="ANT1" />
+          </a>
+        </div>
+
+        <div class="channel-button">
+          <a href="open-beyond">
+            <img
+              src="https://s.tvopen.gr/images/OpenLogo.svg"
+              alt="Open Beyond"
+            />
+          </a>
+        </div>
+      </div>
     </section>
 
-<script>
-    var navLinks = document.getElementById("navLinks");
+    <script>
+      var navLinks = document.getElementById("navLinks");
 
-    function showMenu() {
+      function showMenu() {
         navLinks.classList.add("active");
-    }
-    function hideMenu() {
+      }
+      function hideMenu() {
         navLinks.classList.remove("active");
-    }
-</script>
-</body>
+      }
+    </script>
+  </body>
 </html>
