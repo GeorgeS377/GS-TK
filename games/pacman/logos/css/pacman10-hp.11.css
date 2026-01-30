@@ -1,0 +1,7 @@
+.lst {
+    width: 426px;
+}
+
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="252.94055475051192" height="57.260989320824436"
+     viewBox="-0.6134204628814712 -4.06482035545006 252.94055475051192 57.260989320824436">
+    <defs>
+        <linearGradient id="grad_1" y2="1" x2="0">
+            <stop offset="0" stop-color="#00CCCC" stop-opacity="1"/>
+            <stop offset="1" stop-color="#006666" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="grad_1-.757096767425537,0,0,0.8592321872711182,-74.5,-32.4" y2="49.6498" x2="0.4076"
+                        x1="0.4076" y1="2.6739" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00CCCC" stop-opacity="1"/>
+            <stop offset="1" stop-color="#006666" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+    <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+    <path id="ID0.9754675477743149" fill="url(#grad_1-.757096767425537,0,0,0.8592321872711182,-74.5,-32.4)"
+          d="M 251.3061 42.2561 C 251.3061 46.3392 240.6803 49.6498 227.5813 49.6498 L 24.1296 49.6498 C 11.0279 49.6498 0.4076 46.3383 0.4076 42.2561 L 0.4076 10.0667 C 0.4076 5.9836 11.0279 2.6739 24.1296 2.6739 L 227.5786 2.6739 C 240.6858 2.6739 251.3034 5.9836 251.3034 10.0667 L 251.3034 42.2561 L 251.3061 42.2561 Z "
+          stroke-width="2.042040956566623"/>
+    <text id="ID0.9076045043766499" fill="#FFFFFF" text-anchor="start" font-family="Sans Serif" font-size="22"
+          transform="matrix(1.83776 0 0 1.83776 9.07552 -5.51329)" stroke-width="1"
+          alignment-baseline="text-before-edge" xml:space="preserve"><tspan x="0" style="white-space: pre" dy="1.13em">SELL CARD</tspan></text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="354.8365568133073" height="59.7905515642839"
+     viewBox="-0.8730252490380082 -0.6395253048279557 354.8365568133073 59.7905515642839">
+    <defs>
+        <linearGradient id="grad_1" x1="27.1699" y1="75.8438" x2="118.1699" y2="75.8438" gradientUnits="userSpaceOnUse">
+            <stop offset="0.012" stop-color="#66B3E3"/>
+            <stop offset="1" stop-color="#1C75BC"/>
+        </linearGradient>
+        <linearGradient id="grad_1-.8681321144104004,0,0,1.0418120622634888,-104.55,-41.75" x1="0.5468" y1="37.265"
+                        x2="352.5468" y2="37.265" gradientUnits="userSpaceOnUse">
+            <stop offset="0.012" stop-color="#66B3E3"/>
+            <stop offset="1" stop-color="#1C75BC"/>
+        </linearGradient>
+    </defs>
+    <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+    <path id="ID0.6635115118697286" fill="url(#grad_1-.8681321144104004,0,0,1.0418120622634888,-104.55,-41.75)"
+          d="M 352.5472 48.7699 C 352.5472 53.7206 337.6394 57.7347 319.2619 57.7347 L 33.8247 57.7347 C 15.4433 57.7347 0.5433 53.7196 0.5433 48.7699 L 0.5433 9.7405 C 0.5433 4.7898 15.4433 0.7768 33.8247 0.7768 L 319.258 0.7768 C 337.6471 0.7768 352.5433 4.7898 352.5433 9.7405 L 352.5433 48.7699 L 352.5472 48.7699 Z "
+          stroke-width="2.8326505633073396"/>
+    <text id="ID0.04671084554865956" fill="#FFFFFF" text-anchor="start" font-family="Sans Serif" font-size="22"
+          transform="matrix(1.55548 0 0 1.55548 11.511 4.58357)" stroke-width="1" alignment-baseline="text-before-edge"
+          xml:space="preserve"><tspan x="0" style="white-space: pre" dy="1.13em">NORMAL ACCOUNT</tspan></text>
+</svg>

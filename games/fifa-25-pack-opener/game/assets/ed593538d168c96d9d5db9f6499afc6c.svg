@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="210.49389091763166" height="64.02049080166485"
+     viewBox="-0.6239454554183611 -0.13084544555975286 210.49389091763166 64.02049080166485">
+    <defs>
+        <linearGradient id="grad_1" y2="1" x2="0">
+            <stop offset="0" stop-color="#00CCCC" stop-opacity="1"/>
+            <stop offset="1" stop-color="#006666" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="grad_1-.7416666746139526,0,0,1.1958333253860474,-22.55,-50.55" y2="63.1427" x2="0.123"
+                        x1="0.123" y1="0.6161" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00CCCC" stop-opacity="1"/>
+            <stop offset="1" stop-color="#006666" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+    <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+    <path id="ID0.46281048096716404" fill="url(#grad_1-.7416666746139526,0,0,1.1958333253860474,-22.55,-50.55)"
+          d="M 163.5889 0.6161 L 45.6554 0.6161 C 20.5475 0.6161 0.123 14.6409 0.123 31.8788 C 0.123 49.1191 20.5493 63.1427 45.6554 63.1427 L 163.5889 63.1427 C 188.695 63.1427 209.123 49.1179 209.123 31.8788 C 209.123 14.6409 188.695 0.6161 163.5889 0.6161 Z "
+          stroke-width="1.4938909176316517"/>
+    <text id="ID0.9076045043766499" fill="#FFFFFF" text-anchor="start" font-family="Sans Serif" font-size="22"
+          transform="matrix(1.61567 0 0 1.61567 20.7313 4.70299)" stroke-width="1" alignment-baseline="text-before-edge"
+          xml:space="preserve"><tspan x="0" style="white-space: pre" dy="1.13em">SELL ALL</tspan></text>
+</svg>

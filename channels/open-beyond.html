@@ -2,31 +2,34 @@
 <html>
 <head>
     <title>Open Beyond | 😁GS TK😁</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="../images/gstklogo.png">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../images/gstklogo.webp" rel="shortcut icon">
 </head>
 <body>
-    <section class="header">
-            <nav>
-                <a href="../"><img src="../images/gstklogo.png"></a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                        <li><a href="../">Αρχική</a></li>
-                        <li><a href="../channels">Κανάλια</a></li>
-                        <li><a href="../games">Παιχνίδια</a></li>
-                        <li><a href="../tools">Εργαλεία</a></li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-        <iframe class="channelframe" src="https://www.tvopen.gr/live?autoplay=true" style="border:0" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
-    </section>
+<section class="header">
+    <nav>
+        <a href="../"><img src="../images/gstklogo.webp"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../">Αρχική</a></li>
+                <li><a href="../channels">Κανάλια</a></li>
+                <li><a href="../games">Παιχνίδια</a></li>
+                <li><a href="../tools">Εργαλεία</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <iframe allowfullscreen="allowfullscreen" class="channelframe" frameborder="0" height="360"
+            src="https://www.tvopen.gr/live?autoplay=true" style="border:0" width="640"> 
+    </iframe>
 </section>
 
 <!--<section class="cta">
@@ -35,21 +38,8 @@
 </section>-->
 
 
+<script src="/js/last.js"></script>
 
 
-
-<script>
-    var navLinks = document.getElementById("navLinks");
-    var firstVisit = localStorage.getItem("firstVisit");
-
-    function showMenu(){
-        navLinks.style.right = "0";
-        navLinks.style.display = "block";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-        navLinks.style.display = "none";
-    }
-</script>
 </body>
 </html>

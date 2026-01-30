@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="153.1665289402008" height="92.68463349342346"
+     viewBox="-0.1005176305770874 0.1261824369430542 153.1665289402008 92.68463349342346">
+    <defs>
+        <linearGradient id="grad_1" x2="1">
+            <stop offset="0" stop-color="#00CC44" stop-opacity="1"/>
+            <stop offset="1" stop-color="#009999" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="grad_2" x2="1">
+            <stop offset="0" stop-color="#009999" stop-opacity="1"/>
+            <stop offset="1" stop-color="#00CC44" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="grad_1-.6648352146148682,0,0,1.6648352146148682,-44.5,-67" x2="152.2336" x1="0.7319"
+                        y1="0.9586" y2="0.9586" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00CC44" stop-opacity="1"/>
+            <stop offset="1" stop-color="#009999" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="grad_2-.6648352146148682,0,0,1.6648352146148682,-44.5,-67" x2="146.5482" x1="6.4157"
+                        y1="6.6407" y2="6.6407" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#009999" stop-opacity="1"/>
+            <stop offset="1" stop-color="#00CC44" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+    <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+    <g id="ID0.8963186228647828">
+        <path id="ID0.18974471185356379" fill="url(#grad_1-.6648352146148682,0,0,1.6648352146148682,-44.5,-67)"
+              d="M 152.2336 77.6525 C 152.2336 85.5638 145.8173 91.9784 137.9077 91.9784 L 15.0562 91.9784 C 7.1449 91.9784 0.7319 85.5622 0.7319 77.6525 L 0.7319 15.2828 C 0.7319 7.3715 7.1449 0.9586 15.0562 0.9586 L 137.906 0.9586 C 145.8206 0.9586 152.2319 7.3715 152.2319 15.2828 L 152.2319 77.6525 L 152.2336 77.6525 Z "
+              stroke-width="1.6648352146148682"/>
+        <path id="ID0.030696268193423748" fill="url(#grad_2-.6648352146148682,0,0,1.6648352146148682,-44.5,-67)"
+              d="M 137.906 6.6407 L 15.0562 6.6407 C 10.2931 6.6407 6.4157 10.5164 6.4157 15.2812 L 6.4157 77.6509 C 6.4157 82.4156 10.2931 86.2914 15.0562 86.2914 L 137.906 86.2914 C 142.6741 86.2914 146.5482 82.4156 146.5482 77.6509 L 146.5482 15.2828 C 146.5482 10.5181 142.6741 6.6407 137.906 6.6407 Z "
+              stroke-width="1.6648352146148682"/>
+    </g>
+    <text id="ID0.3716293713077903" fill="#FFFFFF" text-anchor="start" font-family="Sans Serif" font-size="22"
+          transform="matrix(1.28864 0 0 1.28864 24.8773 8.43408)" stroke-width="1" alignment-baseline="text-before-edge"
+          xml:space="preserve"><tspan x="0" style="white-space: pre" dy="1.13em">YOUR </tspan>
+        <tspan x="0" style="white-space: pre" dy="1.13em">SQUAD</tspan></text>
+</svg>

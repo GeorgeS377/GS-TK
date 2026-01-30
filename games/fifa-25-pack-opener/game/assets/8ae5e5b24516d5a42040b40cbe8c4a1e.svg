@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="133.92613422870636" height="58.02014362812042"
+     viewBox="-0.19691666960716248 -3.26963073015213 133.92613422870636 58.02014362812042">
+    <defs>
+        <linearGradient id="grad_1" y2="1" x2="0">
+            <stop offset="0" stop-color="#00CCCC" stop-opacity="1"/>
+            <stop offset="1" stop-color="#006666" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="grad_1-.1958333253860474,0,0,1.1958333253860474,-20.55,-55.55" y2="52.7578" x2="0.401"
+                        x1="0.401" y1="1.001" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00CCCC" stop-opacity="1"/>
+            <stop offset="1" stop-color="#006666" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+    <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+    <path id="ID0.15974322939291596" fill="url(#grad_1-.1958333253860474,0,0,1.1958333253860474,-20.55,-55.55)"
+          d="M 133.1313 26.8788 C 133.1313 41.1714 121.5461 52.7578 107.2535 52.7578 L 26.28 52.7578 C 11.9874 52.7578 0.401 41.1714 0.401 26.8788 L 0.401 26.8788 C 0.401 12.5874 11.9874 1.001 26.28 1.001 L 107.2535 1.001 C 121.5461 1.001 133.1313 12.5874 133.1313 26.8788 L 133.1313 26.8788 Z "
+          stroke-width="1.1958333253860474"/>
+    <text id="ID0.9076045043766499" fill="#FFFFFF" text-anchor="start" font-family="Sans Serif" font-size="22"
+          transform="matrix(1.92116 0 0 1.92116 17.9923 -5.61349)" stroke-width="1"
+          alignment-baseline="text-before-edge" xml:space="preserve"><tspan x="0" style="white-space: pre" dy="1.13em">BUY</tspan></text>
+</svg>

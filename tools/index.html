@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
+<script src="/js/first.js"></script>
 <head>
     <title>Εργαλεία | 😁GS TK😁</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link href="/fonts/fonts.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="../images/gstklogo.png">
+    <link rel="shortcut icon" href="/images/gstklogo.webp">
 </head>
 <body>
     <section class="header">
         <nav>
-            <a href="../"><img src="../images/gstklogo.png" alt="Logo"></a>
+            <a href="/"><img src="/images/gstklogo.webp" alt=""></a>
+
+            <button class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="../">Αρχική</a></li>
-                    <li><a href="../channels">Κανάλια</a></li>
-                    <li><a href="../games">Παιχνίδια</a></li>
-                    <li><a href="../tools">Εργαλεία</a></li>
+                    <li><a href="/">Αρχική</a></li>
+                    <li><a href="/channels">Κανάλια</a></li>
+                    <li><a href="/games">Παιχνίδια</a></li>
+                    <li><a href="/tools">Εργαλεία</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+
         <div class="channel-button-container">
             <div class="tool-button">
-                <a href="../tools/calculator/">
-                    <img src="../images/calc.png" alt="Calculator">
+                <a href="/tools/calculator/">
+                    <img src="/images/calc.png" alt="Calculator">
                 </a>
             </div>
         </div>
+
     </section>
 
     <!-- Optional Footer Section -->
@@ -42,18 +49,6 @@
         </div>
     </section>
 
-    <script>
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu() {
-            navLinks.style.right = "0";
-            navLinks.style.display = "block";
-        }
-
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-            navLinks.style.display = "none";
-        }
-    </script>
+    <script src="/js/last.js"></script>
 </body>
 </html>

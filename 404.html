@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html>
+<script src="/js/first.js"></script>
 <head>
-    <title>Not Found | 😁GS TK😁</title>
+    <title>404 | 😁GS TK😁</title>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="/fonts/fonts.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/images/gstklogo.png">
+    <link rel="shortcut icon" href="/images/gstklogo.webp">
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="/"><img src="/images/gstklogo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="/">Αρχική</a></li>
-                    <li><a href="/channels">Κανάλια</a></li>
-                    <li><a href="/games">Παιχνίδια</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-            <h1 class="hero-txt">Η σελίδα δεν βρέθηκε :(</h1>
-            <p id=""></p>
-            <a href="/" class="hero-btn">Πίσω στην αρχική</a>
-        </div>
+<section class="header">
+    <nav>
+        <a href="/"><img src="/images/gstklogo.webp" alt=""></a>
 
-    </section>
+        <button class="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="/">Αρχική</a></li>
+                <li><a style="pointer-events: none" href="/channels"><img class="under-maintenance"
+                                                                          src="/images/etc/icons/under-maintenance.webp"
+                                                                          alt="under-maintenance"> Κανάλια</a></li>
+                <li><a href="/games">Παιχνίδια</a></li>
+                <li><a style="pointer-events: none" href="/tools"><img class="under-maintenance"
+                                                                       src="/images/etc/icons/under-maintenance.webp"
+                                                                       alt="under-maintenance"> Εργαλεία</a></li>
+            </ul>
+
+            <div class="theme-item">
+                <button id="themeToggle" class="theme-btn">
+                    <img id="themeIcon" class="theme-icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="error-wrap" style="display: flex">
+        <img class="stickman" src="/images/etc/404stickman.webp">
+
+        <div class="error-content">
+            <h1>Η σελίδα δε βρέθηκε :(</h1>
+            <a class="ngen-btn" href="/">Πίσω στην αρχική</a>
+        </div>
+    </div>
 </section>
 
-<!--<section class="cta">
-    <h1>Θέλετε να προσθέσω δικά σας πράγματα στον ιστότοπό μου;<br>Πολύ ευχαρίστως!</h1>
-    <a href="" class="hero-btn">Επικοινώνησε μαζί μου</a>
-</section>-->
-
-
-
-
-
-<script>
-    var navLinks = document.getElementById("navLinks");
-    var firstVisit = localStorage.getItem("firstVisit");
-
-    function showMenu(){
-        navLinks.style.right = "0";
-        navLinks.style.display = "block";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-        navLinks.style.display = "none";
-    }
-</script>
+<script src="/js/last.js"></script>
 </body>
 </html>

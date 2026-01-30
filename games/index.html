@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html>
+<script src="/js/first.js"></script>
 <head>
     <title>Παιχνίδια | 😁GS TK😁</title>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link href="/fonts/fonts.css" rel="stylesheet">
+    <link rel="preload" href="/fonts/emulator/Emulator.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="../images/gstklogo.png">
+    <link rel="shortcut icon" href="/images/gstklogo.webp">
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="../"><img src="../images/gstklogo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="../">Αρχική</a></li>
-                    <li><a href="../channels">Κανάλια</a></li>
-                    <li><a href="../games">Παιχνίδια</a></li>
-                    <li><a href="../tools">Εργαλεία</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
+<section class="header">
+    <nav>
+        <a href="/"><img src="/images/gstklogo-gaming.webp" alt=""></a>
 
-        <div class="channel-button-container">
-            <div class="game-button">
-                <a href="minecraft/">
-                  <img src="../images/minecraft.png" alt="Minecraft">
-                </a>
+        <button class="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="/">Αρχική</a></li>
+                <li><a style="pointer-events: none" href="/channels"><img class="under-maintenance"
+                                                                          src="/images/etc/icons/under-maintenance.webp"
+                                                                          alt="under-maintenance"> Κανάλια</a></li>
+                <li><a href="/games">Παιχνίδια</a></li>
+                <li><a style="pointer-events: none" href="/tools"><img class="under-maintenance"
+                                                                       src="/images/etc/icons/under-maintenance.webp"
+                                                                       alt="under-maintenance"> Εργαλεία</a></li>
+            </ul>
+
+            <div class="theme-item">
+                <button id="themeToggle" class="theme-btn">
+                    <img id="themeIcon" class="theme-icon">
+                </button>
             </div>
         </div>
+    </nav>
 
-    </section>
+    <div class="error-wrap">
+        <img src="/images/etc/rotate-phone.webp">
 
-<script>
-    var navLinks = document.getElementById("navLinks");
+        <div class="error-content">
+            <h1>Γύρισε τη συσκευή σου!</h1>
+        </div>
+    </div>
 
-    function showMenu() {
-        navLinks.classList.add("active");
-    }
-    function hideMenu() {
-        navLinks.classList.remove("active");
-    }
-</script>
+    <div class="button-container">
+        <div class="ngen-btn">
+            <a href="/games/minecraft">
+                <img class="game-icon" alt="Minecraft 1.8" src="/images/games/minecraft/minecraft.webp">
+            </a>
+        </div>
+        <div class="ngen-btn">
+            <a href="/games/fifa-25-pack-opener">
+                <img class="game-icon" alt="Fifa 25 Pack Opener" src="/images/games/fifa-25-pack-opener/logo.webp">
+            </a>
+        </div>
+        <div class="ngen-btn">
+            <a href="/games/pacman">
+                <img class="game-icon" alt="Pacman" src="/images/games/pacman/logo-ghost.webp">
+            </a>
+        </div>
+    </div>
+
+    <h1 class="game-text" id="game-text">LOADING</h1>
+</section>
+
+<script src="/js/last.js"></script>
+
 </body>
 </html>
